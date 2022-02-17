@@ -12,6 +12,7 @@
 		125E753C27BE8298009A9AFB /* ToDoListAppCoreDataDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 125E753A27BE8298009A9AFB /* ToDoListAppCoreDataDemo.xcdatamodeld */; };
 		125E753E27BE8299009A9AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 125E753D27BE8299009A9AFB /* Assets.xcassets */; };
 		125E754127BE8299009A9AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 125E753F27BE8299009A9AFB /* LaunchScreen.storyboard */; };
+		125E754927BE8D20009A9AFB /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125E754827BE8D20009A9AFB /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		125E753D27BE8299009A9AFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		125E754027BE8299009A9AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		125E754227BE8299009A9AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		125E754827BE8D20009A9AFB /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				125E753127BE8298009A9AFB /* AppDelegate.swift */,
 				125E753527BE8298009A9AFB /* TaskListViewController.swift */,
+				125E754827BE8D20009A9AFB /* TaskViewController.swift */,
 				125E753D27BE8299009A9AFB /* Assets.xcassets */,
 				125E753F27BE8299009A9AFB /* LaunchScreen.storyboard */,
 				125E754227BE8299009A9AFB /* Info.plist */,
@@ -135,6 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				125E753627BE8298009A9AFB /* TaskListViewController.swift in Sources */,
+				125E754927BE8D20009A9AFB /* TaskViewController.swift in Sources */,
 				125E753227BE8298009A9AFB /* AppDelegate.swift in Sources */,
 				125E753C27BE8298009A9AFB /* ToDoListAppCoreDataDemo.xcdatamodeld in Sources */,
 			);
